@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tattooengineer/namasteyreactt.git"
+    "url": "https://github.com/tattooengineer/namasteyreactt.git"
   },
   "keywords": [
     "namastey",
@@ -17,6 +17,6 @@
   "author": "lakshay",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.10.2"
+    "parcel": "^2.10.3"
   }
 }
