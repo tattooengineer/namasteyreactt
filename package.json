@@ -1,20 +1,20 @@
 {
   "name": "namstey-react",
   "version": "1.0.0",
-  "description": "this is made by lakshay kaushik",
+  "description": "\"react files\"",
   "main": "app.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tattooengineer/namasteyreactt.git"
+    "url": "(https://github.com/tattooengineer/namasteyreactt)"
   },
   "keywords": [
-    "namastey",
-    "react"
+    "lakshay",
+    "reactjs"
   ],
-  "author": "lakshay",
+  "author": "lakshay kaushik",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.10.3"
