@@ -4,7 +4,9 @@
   "description": "\"react files\"",
  
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lakshay": "npx parcel index.html",
+    "build": "npx parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,9 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browserslist":[
+    "last 2 versions"
+  ]
+  
 }
