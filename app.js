@@ -9,7 +9,7 @@ function Hello() {
         <a href="#" className="anchor">Home</a>
         <a href="#" className="anchor">Contact Us</a>
         <a href="#" className="anchor">About us</a>
-        <a href="#" className="anchor">Random</a>
+        <a href="#" className="anchor">Random2</a>
         <mohit/>
     </div>
     
