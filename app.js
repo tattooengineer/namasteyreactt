@@ -1,9 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import mohit from "./mohit";
 
-const heading = React.createElement("p",{class:"head"}, "Lakshay is here");
+
+function Hello() {
+    return(
+    <div className="navbar">
+        <a href="#" className="anchor">Home</a>
+        <a href="#" className="anchor">Contact Us</a>
+        <a href="#" className="anchor">About us</a>
+        <a href="#" className="anchor">Random</a>
+        <mohit/>
+    </div>
+    
+    ) 
+  }
+
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading)
+root.render(<Hello />)
 
 
   

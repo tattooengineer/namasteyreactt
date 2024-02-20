@@ -1,3 +1,15 @@
-.head{
-    color: red;
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.anchor{
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
 }
