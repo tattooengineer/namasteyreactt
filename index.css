@@ -49,6 +49,11 @@ button.btn {
     border-radius: 6px;
     margin: 0px 10px;
 }
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(22, 177, 22);
+    transition: .5s;
+}
 .card {
     min-width: 210px;
     text-align: center;
