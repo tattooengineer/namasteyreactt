@@ -1,1 +1,1 @@
-# namastey react
+this is a swiggy clone made with reactjs and dummy apis. this is learnt by namastey react by akshay saini 

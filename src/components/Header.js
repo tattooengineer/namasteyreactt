@@ -1,7 +1,8 @@
 import { HEADER_LOGO } from "../utilities/common"
-const Header = () => {
+import { useState } from "react"
+const Header = (props) => {
 
-
+const [btnContent, setbtnContent] = useState("Login")
   
     return (
       <div className="header">
@@ -13,7 +14,11 @@ const Header = () => {
             <li>Home</li>
             <li>About Us</li>
             <li>Contact Us</li>
-            <li>Cart{}</li>
+            <li>Cart {props.counter}</li>
+            <button className="btn-head" onClick={() =>{
+btnContent == "Login" ? setbtnContent("Logout") : setbtnContent("Login") 
+
+            }}>{btnContent}</button>
           </ul>
         </div>
       </div>

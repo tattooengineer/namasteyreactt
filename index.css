@@ -55,9 +55,12 @@ button.btn {
     transition: .5s;
 }
 .card {
-    min-width: 210px;
+    max-width: 210px;
+    min-height: 200px;
     text-align: center;
     margin: 20px;
+    background-color: #f0f0f0;
+    padding: 10px;
   
 }
 .card:hover{
@@ -82,4 +85,26 @@ img.img-card {
 .card > p{
     padding: 3px;
     font-size: 0.8rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.btn-head{
+    width: 100px;
+    text-align: center;
+    background: green;
+    border: none;
+    color: white;
+    
+}
+.shim-cards > .cards{
+    height: 200px;
+    width: 210px;
+    background-color: #f0f0f0;
+    margin-top: 30px;
+
+}
+.shim-cards{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
 }

@@ -1,17 +1,17 @@
-import React from "react";
+import React,{ useState } from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
-</style>
+// import { useState } from "react"
+
 
 
 const AppLayout = () => {
+  let [counter, setCounter] = useState(0);
   return (
     <div className="layout">
-      <Header />
-      <Body />
+      <Header counter={counter} counterfn={setCounter}/>
+      <Body counter={counter} counterfn={setCounter}/>
     </div>
   )
 
